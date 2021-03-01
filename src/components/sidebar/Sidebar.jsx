@@ -5,12 +5,12 @@ import { FormattedMessage } from 'react-intl';
 import MensClothingIcon from '../../assets/icons/sidebar/mensClothingIcon';
 import WomenClothingIcon from '../../assets/icons/sidebar/WomenClothingIcon';
 import JewelleryIcon from '../../assets/icons/sidebar/jewelleryIcon';
-import styles from "./styles.module.scss";
+import styles from './styles.module.scss';
 import ElectronicsIcon from '../../assets/icons/sidebar/electronicsIcon';
 import LogoutIcon from '../../assets/icons/logout/component';
 import HelpIcon from '../../assets/icons/help/component';
 import ArrowLeftIcon from '../../assets/icons/arrows/arrowLeft';
-import { $id } from "../../utils/domUtils";
+import { $id } from '../../utils/domUtils';
 import LogInIcon from '../../assets/icons/login/component';
 
 const Sidebar = () => {
@@ -18,8 +18,8 @@ const Sidebar = () => {
   const [sidebarStatusOnHover, toggleSidebarStatusOnHover] = useState(true);
 
   useEffect(() => {
-    $id("root").classList = "";
-    $id("root").classList.add(sidebarVisible ? "sidebarOpen" : "sidebarMinimized");
+    $id('root').classList = '';
+    $id('root').classList.add(sidebarVisible ? 'sidebarOpen' : 'sidebarMinimized');
   }, [sidebarVisible]);
 
   const updateSideBarVisibility = (event) => {
@@ -27,8 +27,16 @@ const Sidebar = () => {
   };
 
   return (
-    <div className={`${styles.sidebar} ${sidebarVisible ? styles.sidebarFull : styles.sidebarMinimized}`}>
-      <button aria-label="Sidebar toggle" className={`${styles.sidebarToggler} ${sidebarVisible ? "" : styles.sidebarHidden}`} onClick={updateSideBarVisibility}>
+    <div
+      className={`${styles.sidebar} ${
+        sidebarVisible ? styles.sidebarFull : styles.sidebarMinimized
+      }`}
+    >
+      <button
+        aria-label="Sidebar toggle"
+        className={`${styles.sidebarToggler} ${sidebarVisible ? '' : styles.sidebarHidden}`}
+        onClick={updateSideBarVisibility}
+      >
         <ArrowLeftIcon />
       </button>
       <div className={styles.navLinks}>
@@ -58,13 +66,15 @@ const Sidebar = () => {
         </Link>
       </div>
       <Link to="/referrals" className={styles.referralCard}>
-        <p>Invite a friend and get a discount of <span className={styles.discount}>5%</span></p>
+        <p>
+          <FormattedMessage id="sidebarAdd" /> <span className={styles.discount}>5%</span>
+        </p>
       </Link>
       <div className={styles.bottomLinks}>
         <button aria-label="Logout" className={`${styles.logout} ${styles.bottomLink}`}>
           <LogInIcon />
           <span className={styles.linkText}>
-            Login
+            <FormattedMessage id="login" />
           </span>
         </button>
 
@@ -72,17 +82,17 @@ const Sidebar = () => {
         <button aria-label="Logout" className={`${styles.logout} ${styles.bottomLink}`}>
           <LogoutIcon />
           <span className={styles.linkText}>
-            Logout
+            <FormattedMessage id="logout" />
           </span>
         </button>
         <Link to="/help" className={`${styles.logout} ${styles.bottomLink}`}>
           <HelpIcon />
           <span className={styles.linkText}>
-            Help center
+            <FormattedMessage id="helpCenter" />
           </span>
         </Link>
       </div>
-    </div >
+    </div>
   );
 };
 

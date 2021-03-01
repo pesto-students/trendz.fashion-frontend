@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { FormattedMessage } from 'react-intl';
+
 import productsOnSale from '../../../fakeData/productsOnSale';
 import styles from './Offers.module.scss';
 import ArrowRightIcon from '../../../assets/icons/arrows/arrowRight';
@@ -10,13 +12,19 @@ const Offers = () => {
       <div className={styles.seasonalOfferings}>
         <Link to="products?offer=50" className={`${styles.card} ${styles.offer1}`}>
           <div className={styles.offerContent}>
-            <h2 className={styles.offerTitle}>Get up to 50%</h2>
-            <span className={styles.offerSubTitle}>For the holiday season</span>
+            <h2 className={styles.offerTitle}>
+              <FormattedMessage id="homeAdd1Title" />
+            </h2>
+            <span className={styles.offerSubTitle}>
+              <FormattedMessage id="homeAdd1SubTitle" />
+            </span>
           </div>
         </Link>
         <Link to="products?offer=30" className={`${styles.card} ${styles.offer2}`}>
           <div className={styles.offerContent}>
-            <h1 className={styles.offerTitle}>Get up to 30% off shirts</h1>
+            <h1 className={styles.offerTitle}>
+              <FormattedMessage id="homeAdd2Title" />
+            </h1>
           </div>
         </Link>
       </div>
