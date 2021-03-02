@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OutlineButton/> render correctly (snapshot) 1`] = `
+<OutlineButton>
+  <button
+    className="button undefined"
+  >
+    button
+  </button>
+</OutlineButton>
+`;

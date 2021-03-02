@@ -1,0 +1,834 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavSideBarContainer/> render correctly (snapshot) 1`] = `
+<TestEnvironmentWrapper>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Provider
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+      >
+        <IntlProvider
+          defaultFormats={Object {}}
+          defaultLocale="en"
+          formats={Object {}}
+          locale="en"
+          messages={
+            Object {
+              "electronics": "Electronics",
+              "fifty_percent_off": "Get up to 50%",
+              "help_center": "Help Center",
+              "holiday_season": "For the holiday season",
+              "jewellery": "Jewellery",
+              "login": "Log in",
+              "mensClothing": "Men's clothing",
+              "referral_message": "Invite a friend and get a discount of 5%",
+              "register": "Register",
+              "search": "Search for products",
+              "thirty_percent_discount_shirts": "Get up to 30% off shirts",
+              "womenClothing": "Women's Clothing",
+            }
+          }
+          onError={[Function]}
+          textComponent={Symbol(react.fragment)}
+        >
+          <NavSideBarContainer>
+            <Navigation>
+              <header
+                className="header"
+              >
+                <Link
+                  className="pageBranding"
+                  to="/"
+                >
+                  <LinkAnchor
+                    className="pageBranding"
+                    href="/"
+                    navigate={[Function]}
+                  >
+                    <a
+                      className="pageBranding"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      <Logo
+                        container="header"
+                      >
+                        <svg
+                          className="header"
+                          fill="none"
+                          viewBox="0 0 20 22"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M7.86256 20.709C8.05184 20.8973 8.30274 21.0018 8.5697 21.0018C8.83756 21.0018 9.08845 20.8973 9.27774 20.709L10.0001 19.9866L11.0929 21.0929C11.2929 21.292 11.5536 21.3938 11.8188 21.3938C12.0965 21.3938 12.3786 21.2831 12.6036 21.0572L17.4215 14.7447C17.5411 14.5875 17.5108 14.3634 17.3545 14.2429C17.1974 14.1259 16.9742 14.1536 16.8527 14.3098L12.067 20.5866C11.9367 20.7152 11.7251 20.7161 11.5983 20.5884L10.5045 19.4813L17.509 12.4768C18.5161 11.4688 20.2206 5.12592 18.192 3.09645C17.6849 2.58931 16.8706 2.29735 15.7965 2.20181C14.9876 1.26967 13.7108 0.549132 12.276 0.225024C10.9242 -0.0785469 9.5697 -0.016047 8.46166 0.405382C7.30184 0.84556 6.54291 1.62324 6.32327 2.59467C6.11345 3.52502 6.43309 4.50806 7.21434 5.37592L0.580415 12.0098C0.190236 12.4009 0.190236 13.0348 0.580415 13.4259L7.86256 20.709ZM7.02059 2.75092C7.18488 2.02145 7.78666 1.42502 8.71434 1.07235C9.69291 0.700024 10.901 0.644667 12.1188 0.921453C13.1277 1.14913 14.0411 1.5911 14.7331 2.16342C12.3527 2.23127 9.49649 3.09288 8.81077 3.7786L7.72506 4.8652C7.12416 4.18217 6.86524 3.43842 7.02059 2.75092ZM1.08577 12.5161L7.73845 5.86342C8.52506 6.52681 9.54024 7.03395 10.6813 7.2911C11.2429 7.41788 11.7983 7.4777 12.3313 7.4777C13.3697 7.4777 14.3161 7.24377 15.0643 6.83217C15.3054 6.97056 15.5804 7.05627 15.8777 7.05627C16.7849 7.05627 17.5224 6.31877 17.5224 5.41163C17.5224 4.50449 16.7849 3.7661 15.8777 3.7661C14.9706 3.7661 14.2331 4.50449 14.2331 5.41163C14.2331 5.74735 14.3349 6.05985 14.509 6.32056C13.5474 6.77145 12.2268 6.90985 10.8384 6.59377C9.83041 6.36699 8.93577 5.92949 8.24291 5.35895L9.31702 4.28485C9.80006 3.80092 12.5456 2.87235 15.0313 2.87235C16.2911 2.87235 17.209 3.12413 17.6867 3.60181C19.3652 5.27949 17.7858 11.1893 17.0036 11.9706L8.77149 20.2027C8.66345 20.3107 8.47506 20.3107 8.36702 20.2027L1.08577 12.9206C0.974165 12.809 0.974165 12.6277 1.08577 12.5161ZM14.9474 5.41163C14.9474 4.89824 15.3643 4.48127 15.8768 4.48127C15.9081 4.48127 15.934 4.49645 15.9643 4.49913C15.9572 4.58842 15.9554 4.6786 15.9358 4.76431C15.8304 5.23127 15.5367 5.62235 15.1331 5.9402C15.0251 5.78842 14.9474 5.61252 14.9474 5.41163ZM16.634 4.92145C16.6349 4.9161 16.6349 4.90985 16.6358 4.90449C16.7349 5.0527 16.8063 5.21967 16.8063 5.41163C16.8063 5.92413 16.3893 6.3411 15.8768 6.3411C15.8429 6.3411 15.8135 6.32502 15.7804 6.32145C16.2063 5.93395 16.5108 5.4652 16.634 4.92145Z"
+                          />
+                          <path
+                            d="M8.13226 17.0607C8.2019 17.1303 8.29387 17.1652 8.38494 17.1652C8.47601 17.1652 8.56797 17.1303 8.63762 17.0607L12.6698 13.0285C12.809 12.8893 12.809 12.6625 12.6698 12.5232L8.7653 8.61783C8.69833 8.55176 8.60726 8.51337 8.51262 8.51337C8.41797 8.51337 8.3269 8.55176 8.25994 8.61783L4.2269 12.6509C4.16083 12.7178 4.12244 12.8089 4.12244 12.9035C4.12244 12.9982 4.16083 13.0893 4.2269 13.1562L8.13226 17.0607ZM8.51262 9.37497L11.9126 12.7759L8.38583 16.3027L4.98494 12.9027L8.51262 9.37497Z"
+                          />
+                          <path
+                            d="M10.117 12.9974C10.1866 13.0671 10.2786 13.1019 10.3697 13.1019C10.4608 13.1019 10.5527 13.0671 10.6224 12.9974C10.7617 12.8581 10.7617 12.6314 10.6224 12.4921L8.79647 10.6662C8.65718 10.5269 8.4304 10.5269 8.29111 10.6662C8.15182 10.8055 8.15182 11.0322 8.29111 11.1715L10.117 12.9974Z"
+                          />
+                          <path
+                            d="M9.10901 14.0054C9.17865 14.0751 9.27061 14.1099 9.36169 14.1099C9.45276 14.1099 9.54472 14.0751 9.61436 14.0054C9.75365 13.8661 9.75365 13.6393 9.61436 13.5001L7.78847 11.6742C7.64919 11.5349 7.4224 11.5349 7.28311 11.6742C7.14383 11.8135 7.14383 12.0402 7.28311 12.1795L9.10901 14.0054Z"
+                          />
+                          <path
+                            d="M8.60716 14.507L6.78127 12.6811C6.64198 12.5418 6.4152 12.5418 6.27591 12.6811C6.13663 12.8204 6.13663 13.0472 6.27591 13.1865L8.10181 15.0124C8.17145 15.082 8.26341 15.1168 8.35448 15.1168C8.44556 15.1168 8.53752 15.082 8.60716 15.0124C8.74645 14.874 8.74645 14.6472 8.60716 14.507Z"
+                          />
+                        </svg>
+                      </Logo>
+                      <span
+                        className="logoTitle"
+                      >
+                        Little Tags
+                      </span>
+                    </a>
+                  </LinkAnchor>
+                </Link>
+                <div
+                  className="searchWrap "
+                >
+                  <label
+                    className="searchLabel"
+                    htmlFor="search"
+                  >
+                    <span>
+                      Search
+                    </span>
+                    <input
+                      className="input"
+                      id="search"
+                      placeholder="Search for products"
+                      type="text"
+                    />
+                  </label>
+                  <button
+                    aria-label="Search"
+                    className="searchButton"
+                  >
+                    <SearchIcon
+                      container="searchBarContainer"
+                    >
+                      <svg
+                        className="searchBarContainer"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          className="searchCircle"
+                          cx="11.7666"
+                          cy="11.7666"
+                          r="8.98856"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        />
+                        <path
+                          className="searchStrokePath"
+                          d="M18.0183 18.4852L21.5423 22.0001"
+                          opacity="0.4"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        />
+                      </svg>
+                    </SearchIcon>
+                  </button>
+                  <button
+                    aria-label="Close Search"
+                    className="closeSearchButton"
+                    onClick={[Function]}
+                  >
+                    <CloseIcon
+                      container="fillDark"
+                    >
+                      <svg
+                        className="fillDark"
+                        version="1.1"
+                        viewBox="0 0 100 100"
+                        x="0px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        y="0px"
+                      >
+                        <path
+                          d="M25.161,76.274c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414l49.37-49.37 c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-49.37,49.37C25.672,76.176,25.417,76.274,25.161,76.274z"
+                        />
+                        <path
+                          d="M74.531,76.274c-0.256,0-0.512-0.098-0.707-0.293l-49.37-49.37c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0l49.37,49.37c0.391,0.391,0.391,1.023,0,1.414C75.042,76.176,74.787,76.274,74.531,76.274z"
+                        />
+                      </svg>
+                    </CloseIcon>
+                  </button>
+                </div>
+                <div
+                  className="rightNavigation"
+                >
+                  <button
+                    aria-label="Search"
+                    className="navItem searchButton"
+                    onClick={[Function]}
+                  >
+                    <SearchIcon
+                      container="searchBarContainer"
+                    >
+                      <svg
+                        className="searchBarContainer"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          className="searchCircle"
+                          cx="11.7666"
+                          cy="11.7666"
+                          r="8.98856"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        />
+                        <path
+                          className="searchStrokePath"
+                          d="M18.0183 18.4852L21.5423 22.0001"
+                          opacity="0.4"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        />
+                      </svg>
+                    </SearchIcon>
+                  </button>
+                  <div
+                    className="languageSwitcher "
+                  >
+                    <button
+                      aria-label="Language Switcher"
+                      className="navItem languageSwitcherToggle"
+                      onClick={[Function]}
+                    >
+                      <img
+                        src="UKFlag.png"
+                      />
+                      <span
+                        className="currentLocale"
+                      >
+                        English
+                      </span>
+                    </button>
+                    <ul
+                      className="languagesListDropdown"
+                    >
+                      <li>
+                        <button
+                          className="languageSwitcherButton"
+                          onClick={[Function]}
+                        >
+                          <img
+                            className="flag"
+                            src="UKFlag.png"
+                          />
+                          <span
+                            className="currentLocale"
+                          >
+                            English
+                          </span>
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          className="languageSwitcherButton"
+                          onClick={[Function]}
+                        >
+                          <img
+                            className="flag"
+                            src="IndianFlag.png"
+                          />
+                          <span>
+                            हिन्दी
+                          </span>
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          className="languageSwitcherButton"
+                          onClick={[Function]}
+                        >
+                          <img
+                            className="flag"
+                            src="spainFlag.png"
+                          />
+                          <span>
+                            Español
+                          </span>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <button
+                    aria-label="Cart"
+                    className="navItem cartButton"
+                  >
+                    <CartIcon>
+                      <svg
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clipRule="evenodd"
+                          d="M7.42226 19.8203C7.84426 19.8203 8.18726 20.1633 8.18726 20.5853C8.18726 21.0073 7.84426 21.3493 7.42226 21.3493C7.00026 21.3493 6.65826 21.0073 6.65826 20.5853C6.65826 20.1633 7.00026 19.8203 7.42226 19.8203Z"
+                          fillRule="evenodd"
+                          opacity="0.4"
+                          stroke="#200E32"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        />
+                        <path
+                          clipRule="evenodd"
+                          d="M18.6747 19.8203C19.0967 19.8203 19.4397 20.1633 19.4397 20.5853C19.4397 21.0073 19.0967 21.3493 18.6747 21.3493C18.2527 21.3493 17.9097 21.0073 17.9097 20.5853C17.9097 20.1633 18.2527 19.8203 18.6747 19.8203Z"
+                          fillRule="evenodd"
+                          opacity="0.4"
+                          stroke="#200E32"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        />
+                        <path
+                          d="M2.74988 3.25L4.82988 3.61L5.79288 15.083C5.87088 16.018 6.65188 16.736 7.58988 16.736H18.5019C19.3979 16.736 20.1579 16.078 20.2869 15.19L21.2359 8.632C21.3529 7.823 20.7259 7.099 19.9089 7.099H5.16388"
+                          stroke="#200E32"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        />
+                        <path
+                          d="M14.1254 10.795H16.8984"
+                          opacity="0.4"
+                          stroke="#200E32"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        />
+                      </svg>
+                    </CartIcon>
+                  </button>
+                </div>
+              </header>
+            </Navigation>
+            <Sidebar>
+              <div
+                className="sidebar sidebarFull"
+              >
+                <button
+                  aria-label="Sidebar toggle"
+                  className="sidebarToggler "
+                  onClick={[Function]}
+                >
+                  <ArrowLeftIcon>
+                    <svg
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.5 19L8.5 12L15.5 5"
+                        stroke="#200E32"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                      />
+                    </svg>
+                  </ArrowLeftIcon>
+                </button>
+                <div
+                  className="navLinks"
+                >
+                  <Link
+                    className="navLink"
+                    data-target="mens"
+                    to="/men"
+                  >
+                    <LinkAnchor
+                      className="navLink"
+                      data-target="mens"
+                      href="/men"
+                      navigate={[Function]}
+                    >
+                      <a
+                        className="navLink"
+                        data-target="mens"
+                        href="/men"
+                        onClick={[Function]}
+                      >
+                        <MensClothingIcon>
+                          <svg
+                            fill="none"
+                            viewBox="0 0 187 187"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <circle
+                              cx="93.0627"
+                              cy="93.0627"
+                              fill="url(#MensClothingIconGradientFilter)"
+                              r="93.0627"
+                            />
+                            <path
+                              clipRule="evenodd"
+                              d="M117.139 42.0894L152.883 71.4691C153.262 71.7813 133.858 86.6057 131.51 85.5716C129.934 84.8773 126.782 83.4893 125.207 82.795C121.24 81.0481 127.427 137.267 124.458 143.739C124.275 144.136 61.8514 144.136 61.6677 143.739C58.6994 137.267 64.8861 81.0481 60.9193 82.795C59.3433 83.4893 56.1919 84.8773 54.6159 85.5716C52.2675 86.6057 32.8631 71.7813 33.2422 71.4691L68.9862 42.0894H84.3132C79.1385 56.0868 108.66 56.0868 103.485 42.0894H117.139Z"
+                              fill="url(#MensClothingIconClothFilter)"
+                              fillRule="evenodd"
+                            />
+                            <defs>
+                              <linearGradient
+                                gradientUnits="userSpaceOnUse"
+                                id="MensClothingIconGradientFilter"
+                                x1="93.0627"
+                                x2="93.0627"
+                                y1="0"
+                                y2="186.125"
+                              >
+                                <stop
+                                  stopColor="#FFF48C"
+                                />
+                                <stop
+                                  offset="1"
+                                  stopColor="#FFE600"
+                                  stopOpacity="0.25"
+                                />
+                              </linearGradient>
+                              <linearGradient
+                                gradientUnits="userSpaceOnUse"
+                                id="MensClothingIconClothFilter"
+                                x1="93.0628"
+                                x2="93.0628"
+                                y1="42.0894"
+                                y2="144.036"
+                              >
+                                <stop
+                                  stopColor="#FF8181"
+                                />
+                                <stop
+                                  offset="1"
+                                  stopColor="#FFF59B"
+                                  stopOpacity="0.62"
+                                />
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                        </MensClothingIcon>
+                        <span
+                          className="linkText"
+                        >
+                          <FormattedMessage
+                            id="mensClothing"
+                          >
+                            Men's clothing
+                          </FormattedMessage>
+                        </span>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                  <Link
+                    className="navLink"
+                    data-target="women"
+                    to="/women"
+                  >
+                    <LinkAnchor
+                      className="navLink"
+                      data-target="women"
+                      href="/women"
+                      navigate={[Function]}
+                    >
+                      <a
+                        className="navLink"
+                        data-target="women"
+                        href="/women"
+                        onClick={[Function]}
+                      >
+                        <WomenClothingIcon>
+                          <svg
+                            fill="none"
+                            viewBox="0 0 187 187"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <circle
+                              cx="93.5"
+                              cy="93.0627"
+                              fill="url(#WomenClothingIconGradientFilter)"
+                              r="93.0627"
+                            />
+                            <path
+                              d="M131.168 71.7828C131.168 71.7828 120.515 66.5372 120.515 39.884H109.863C109.863 39.884 106.369 61.1498 93.8693 61.1498C81.37 61.1498 77.8759 39.884 77.8759 39.884H67.2231C67.2231 66.0835 56.5703 71.7828 56.5703 71.7828L72.5637 98.3792L56.5703 146.241H131.14L115.175 98.3792L131.168 71.7828Z"
+                              fill="url(#WomenClothingIconClothGradientFilter)"
+                            />
+                            <defs>
+                              <linearGradient
+                                gradientUnits="userSpaceOnUse"
+                                id="WomenClothingIconGradientFilter"
+                                x1="93.5"
+                                x2="93.5"
+                                y1="0"
+                                y2="186.125"
+                              >
+                                <stop
+                                  stopColor="#FF00CF"
+                                  stopOpacity="0.13"
+                                />
+                                <stop
+                                  offset="1"
+                                  stopColor="#FF0B8F"
+                                  stopOpacity="0.63"
+                                />
+                              </linearGradient>
+                              <linearGradient
+                                gradientUnits="userSpaceOnUse"
+                                id="WomenClothingIconClothGradientFilter"
+                                x1="93.8693"
+                                x2="93.5"
+                                y1="39.884"
+                                y2="146.241"
+                              >
+                                <stop
+                                  stopColor="#FF5C00"
+                                />
+                                <stop
+                                  offset="1"
+                                  stopColor="#FF80C4"
+                                  stopOpacity="0.35"
+                                />
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                        </WomenClothingIcon>
+                        <span
+                          className="linkText"
+                        >
+                          <FormattedMessage
+                            id="womenClothing"
+                          >
+                            Women's Clothing
+                          </FormattedMessage>
+                        </span>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                  <Link
+                    className="navLink"
+                    data-target="jewellery"
+                    to="/jewellery"
+                  >
+                    <LinkAnchor
+                      className="navLink"
+                      data-target="jewellery"
+                      href="/jewellery"
+                      navigate={[Function]}
+                    >
+                      <a
+                        className="navLink"
+                        data-target="jewellery"
+                        href="/jewellery"
+                        onClick={[Function]}
+                      >
+                        <JewelleryIcon>
+                          <svg
+                            fill="none"
+                            viewBox="0 0 187 187"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <circle
+                              cx="93.9372"
+                              cy="93.0627"
+                              fill="url(#JewelleryIconGradientFilter)"
+                              r="93.0627"
+                            />
+                            <path
+                              d="M140.254 78.885C136.465 77.5085 132.895 75.6135 129.665 73.2197C129.525 73.12 129.405 73.0202 129.266 72.9006C124.659 84.5103 115.046 93.3672 103.26 96.5589C103.26 96.519 103.26 96.4791 103.26 96.4392C103.26 94.4045 102.921 92.8286 102.323 91.6118C113.67 88.9986 122.944 81.4383 127.451 71.4643C127.152 71.205 126.833 70.9457 126.534 70.6863C126.494 70.6464 126.454 70.6065 126.414 70.5866C120.012 64.8615 116.462 56.7427 116.462 48.3246C116.462 45.7114 114.269 43.577 111.556 43.577H75.5795C72.8672 43.577 70.6735 45.7114 70.6735 48.3246C70.6735 56.7626 67.1237 64.8815 60.702 70.6065C60.6622 70.6464 60.6223 70.6863 60.5824 70.7063C60.2832 70.9656 59.9841 71.2249 59.685 71.4643C64.1921 81.4383 73.4854 88.9986 84.813 91.6118C84.2147 92.8286 83.8757 94.4045 83.8757 96.4392C83.8757 96.4791 83.8757 96.519 83.8757 96.5788C72.0894 93.3871 62.477 84.5302 57.8701 72.9205C57.7305 73.0202 57.6109 73.1399 57.4713 73.2397C54.2405 75.6334 50.6708 77.5285 46.8816 78.9049C44.7677 79.6629 43.4714 81.7375 43.7506 83.8919C45.2263 95.6213 52.5653 130.431 87.5253 142.3C91.4341 143.616 95.7018 143.616 99.6107 142.3C134.571 130.431 141.91 95.6213 143.385 83.8919C143.665 81.7375 142.368 79.6629 140.254 78.885ZM93.568 90.6343C97.9753 90.6343 100.069 91.512 100.069 96.4392C100.069 101.925 97.0978 106.573 93.568 106.573C90.0381 106.573 87.0666 101.945 87.0666 96.4392C87.0666 91.512 89.1606 90.6343 93.568 90.6343Z"
+                              fill="url(#JewelleryIconIconFilter)"
+                            />
+                            <defs>
+                              <linearGradient
+                                gradientUnits="userSpaceOnUse"
+                                id="JewelleryIconGradientFilter"
+                                x1="93.9372"
+                                x2="93.9372"
+                                y1="0"
+                                y2="186.125"
+                              >
+                                <stop
+                                  stopColor="#FAFF00"
+                                  stopOpacity="0.89"
+                                />
+                                <stop
+                                  offset="1"
+                                  stopColor="#63E100"
+                                  stopOpacity="0.3"
+                                />
+                              </linearGradient>
+                              <linearGradient
+                                gradientUnits="userSpaceOnUse"
+                                id="JewelleryIconIconFilter"
+                                x1="93.568"
+                                x2="93.568"
+                                y1="43.577"
+                                y2="143.287"
+                              >
+                                <stop
+                                  stopColor="#FAC300"
+                                />
+                                <stop
+                                  offset="1"
+                                  stopColor="#FF3131"
+                                  stopOpacity="0.67"
+                                />
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                        </JewelleryIcon>
+                        <span
+                          className="linkText"
+                        >
+                          <FormattedMessage
+                            id="jewellery"
+                          >
+                            Jewellery
+                          </FormattedMessage>
+                        </span>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                  <Link
+                    className="navLink"
+                    data-target="electronics"
+                    to="/electronics"
+                  >
+                    <LinkAnchor
+                      className="navLink"
+                      data-target="electronics"
+                      href="/electronics"
+                      navigate={[Function]}
+                    >
+                      <a
+                        className="navLink"
+                        data-target="electronics"
+                        href="/electronics"
+                        onClick={[Function]}
+                      >
+                        <ElectronicsIcon>
+                          <svg
+                            fill="none"
+                            viewBox="0 0 187 187"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <circle
+                              cx="93.0627"
+                              cy="93.0627"
+                              fill="url(#ElectronicsIconGradientFilter)"
+                              r="93.0627"
+                            />
+                            <path
+                              d="M131.601 84.147C133.252 80.3621 133.939 78.8294 133.532 73.156C132.871 63.9353 128.986 55.8435 124.203 50.3902C117.926 43.2333 106.181 39.8836 94.3872 40.0111L99.2135 70.4323C107.547 72.4107 113.755 79.8812 113.755 88.82C113.755 99.2669 105.287 107.735 94.84 107.735C84.3942 107.735 75.9246 99.2669 75.9246 88.82C75.9246 82.1487 79.3866 76.2963 84.6037 72.9291L79.7049 42.0481C74.3112 43.5609 69.4709 45.8939 65.8626 49.0248C59.0052 54.9731 51.7852 64.2898 51.5383 76.136C51.2259 91.1085 57.9218 100.777 64.0713 110.156C66.0405 113.156 68.7092 116.785 69.1866 120.387C70.1811 127.905 69.0918 134.045 65.9398 138.802C63.7309 142.137 61.7302 145.038 59.6218 147.652H109.588C107.126 143.114 106.257 135.633 109.679 135.641C114.748 135.787 118.361 137.01 123.415 136.245C127.231 135.666 129.588 134.615 130.321 131.13C131.179 127.047 128.916 126.502 129.298 124.478C129.822 121.685 131.541 120.299 132.411 117.06C133.594 112.658 131.419 109.995 133.284 109.094C135.746 107.549 137.891 107.645 140.038 105.55C143.592 102.222 129.672 89.0879 131.601 84.147Z"
+                              fill="url(#ElectronicsIconIconFilter)"
+                            />
+                            <defs>
+                              <linearGradient
+                                gradientUnits="userSpaceOnUse"
+                                id="ElectronicsIconGradientFilter"
+                                x1="93.0627"
+                                x2="93.0627"
+                                y1="0"
+                                y2="186.125"
+                              >
+                                <stop
+                                  stopColor="#63B4FF"
+                                  stopOpacity="0.89"
+                                />
+                                <stop
+                                  offset="1"
+                                  stopColor="#D10000"
+                                  stopOpacity="0.03"
+                                />
+                              </linearGradient>
+                              <linearGradient
+                                gradientUnits="userSpaceOnUse"
+                                id="ElectronicsIconIconFilter"
+                                x1="96.0747"
+                                x2="96.0747"
+                                y1="40.0076"
+                                y2="147.652"
+                              >
+                                <stop
+                                  stopColor="white"
+                                />
+                                <stop
+                                  offset="1"
+                                  stopColor="white"
+                                  stopOpacity="0.46"
+                                />
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                        </ElectronicsIcon>
+                        <span
+                          className="linkText"
+                        >
+                          <FormattedMessage
+                            id="electronics"
+                          >
+                            Electronics
+                          </FormattedMessage>
+                        </span>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </div>
+                <Link
+                  className="referralCard"
+                  to="/referrals"
+                >
+                  <LinkAnchor
+                    className="referralCard"
+                    href="/referrals"
+                    navigate={[Function]}
+                  >
+                    <a
+                      className="referralCard"
+                      href="/referrals"
+                      onClick={[Function]}
+                    >
+                      <p>
+                        <FormattedMessage
+                          id="referral_message"
+                        >
+                          Invite a friend and get a discount of 5%
+                        </FormattedMessage>
+                      </p>
+                    </a>
+                  </LinkAnchor>
+                </Link>
+                <div
+                  className="bottomLinks"
+                >
+                  <button
+                    aria-label="Logout"
+                    className="logout bottomLink"
+                  >
+                    <LogInIcon>
+                      <svg
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.8125 12.0218H3.77148"
+                          stroke="#200E32"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        />
+                        <path
+                          d="M12.8848 9.1058L15.8128 12.0218L12.8848 14.9378"
+                          stroke="#200E32"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        />
+                        <path
+                          d="M8.50439 7.389V6.456C8.50439 4.421 10.1534 2.772 12.1894 2.772H17.0734C19.1034 2.772 20.7484 4.417 20.7484 6.447V17.587C20.7484 19.622 19.0984 21.272 17.0634 21.272H12.1784C10.1494 21.272 8.50439 19.626 8.50439 17.597V16.655"
+                          stroke="#200E32"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                        />
+                      </svg>
+                    </LogInIcon>
+                    <span
+                      className="linkText"
+                    >
+                      <FormattedMessage
+                        id="login"
+                      >
+                        Log in
+                      </FormattedMessage>
+                    </span>
+                  </button>
+                  <Link
+                    className="logout bottomLink"
+                    to="/help"
+                  >
+                    <LinkAnchor
+                      className="logout bottomLink"
+                      href="/help"
+                      navigate={[Function]}
+                    >
+                      <a
+                        className="logout bottomLink"
+                        href="/help"
+                        onClick={[Function]}
+                      >
+                        <HelpIcon>
+                          <svg
+                            fill="#200E32"
+                            version="1.0"
+                            viewBox="0 0 5090 5090"
+                            x="0px"
+                            xmlns="http://www.w3.org/2000/svg"
+                            y="0px"
+                          >
+                            <path
+                              d="M2072 2085c0,110 -89,199 -198,199 -110,0 -199,-89 -199,-199 0,-240 97,-457 254,-614 157,-157 374,-254 614,-254 240,0 457,97 614,254 157,157 254,374 254,614 0,240 -97,457 -254,614 -112,112 -255,194 -415,231l0 86c0,110 -89,199 -199,199 -110,0 -199,-89 -199,-199l0 -262c0,-109 89,-198 199,-198 130,0 248,-53 333,-138 85,-85 138,-203 138,-333 0,-130 -53,-248 -138,-333 -85,-85 -203,-138 -333,-138 -130,0 -248,53 -333,138 -85,85 -138,203 -138,333zm451 1787c-110,0 -199,-88 -199,-198 0,-110 89,-199 199,-199l44 0c110,0 199,89 199,199 0,110 -89,198 -199,198l-44 0zm22 820c593,0 1130,-240 1518,-629 389,-388 629,-925 629,-1518 0,-593 -240,-1130 -629,-1519 -388,-388 -925,-629 -1518,-629 -593,0 -1130,241 -1519,629 -388,389 -629,926 -629,1519 0,593 241,1130 629,1518 389,389 926,629 1519,629zm1799 -348c-460,461 -1097,746 -1799,746 -703,0 -1339,-285 -1800,-746 -460,-460 -745,-1097 -745,-1799 0,-703 285,-1339 745,-1800 461,-460 1097,-745 1800,-745 702,0 1339,285 1799,745 461,461 746,1097 746,1800 0,702 -285,1339 -746,1799z"
+                            />
+                          </svg>
+                        </HelpIcon>
+                        <span
+                          className="linkText"
+                        >
+                          <FormattedMessage
+                            id="help_center"
+                          >
+                            Help Center
+                          </FormattedMessage>
+                        </span>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </div>
+              </div>
+            </Sidebar>
+            <div
+              className="appContent"
+            />
+          </NavSideBarContainer>
+        </IntlProvider>
+      </Provider>
+    </Router>
+  </BrowserRouter>
+</TestEnvironmentWrapper>
+`;

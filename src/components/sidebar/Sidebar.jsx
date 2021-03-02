@@ -5,22 +5,25 @@ import { FormattedMessage, useIntl } from 'react-intl';
 import MensClothingIcon from '../../assets/icons/sidebar/mensClothingIcon';
 import WomenClothingIcon from '../../assets/icons/sidebar/WomenClothingIcon';
 import JewelleryIcon from '../../assets/icons/sidebar/jewelleryIcon';
-import styles from "./styles.module.scss";
+import styles from './styles.module.scss';
 import ElectronicsIcon from '../../assets/icons/sidebar/electronicsIcon';
 import LogoutIcon from '../../assets/icons/logout/component';
 import HelpIcon from '../../assets/icons/help/component';
 import ArrowLeftIcon from '../../assets/icons/arrows/arrowLeft';
-import { $id } from "../../utils/domUtils";
+import { $id } from '../../utils/domUtils';
 import LogInIcon from '../../assets/icons/login/component';
 
 const Sidebar = () => {
-  const [sidebarVisible, toggleSidebar] = useState(() => (window.innerWidth >= 900));
+  const [sidebarVisible, toggleSidebar] = useState(() => window.innerWidth >= 900);
   const intl = useIntl();
 
   useEffect(() => {
-    $id("root").classList.remove("sidebarOpen");
-    $id("root").classList.remove("sidebarMinimized");
-    $id("root").classList.add(sidebarVisible ? "sidebarOpen" : "sidebarMinimized");
+    const rootDiv = $id('root');
+    if (rootDiv) {
+      rootDiv.classList.remove('sidebarOpen');
+      rootDiv.classList.remove('sidebarMinimized');
+      rootDiv.classList.add(sidebarVisible ? 'sidebarOpen' : 'sidebarMinimized');
+    }
   }, [sidebarVisible]);
 
   const updateSideBarVisibility = (event) => {
@@ -28,12 +31,25 @@ const Sidebar = () => {
   };
 
   function createReferralLocale() {
-    return { __html: intl.formatMessage({ id: 'referral_message', values: { className: styles.discount } }) };
+    return {
+      __html: intl.formatMessage({
+        id: 'referral_message',
+        values: { className: styles.discount },
+      }),
+    };
   }
 
   return (
-    <div className={`${styles.sidebar} ${sidebarVisible ? styles.sidebarFull : styles.sidebarMinimized}`}>
-      <button aria-label="Sidebar toggle" className={`${styles.sidebarToggler} ${sidebarVisible ? "" : styles.sidebarHidden}`} onClick={updateSideBarVisibility}>
+    <div
+      className={`${styles.sidebar} ${
+        sidebarVisible ? styles.sidebarFull : styles.sidebarMinimized
+      }`}
+    >
+      <button
+        aria-label="Sidebar toggle"
+        className={`${styles.sidebarToggler} ${sidebarVisible ? '' : styles.sidebarHidden}`}
+        onClick={updateSideBarVisibility}
+      >
         <ArrowLeftIcon />
       </button>
       <div className={styles.navLinks}>
@@ -89,7 +105,7 @@ const Sidebar = () => {
           </span>
         </Link>
       </div>
-    </div >
+    </div>
   );
 };
 

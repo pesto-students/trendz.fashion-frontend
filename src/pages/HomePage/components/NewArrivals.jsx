@@ -10,8 +10,6 @@ const NewArrivals = () => {
   const dispatch = useDispatch();
   const products = useSelector((state) => state.product.products);
 
-  console.log(products);
-
   useEffect(() => {
     dispatch(productAction.getProducts());
   }, []);
@@ -21,9 +19,11 @@ const NewArrivals = () => {
       <section className={styles.newArrivals}>
         <h2 className={styles.title}>New Arrivals</h2>
         <div className={styles.products}>
-          {products.map(product => <Product product={product} key={product.id} />)}
+          {products.map((product) => (
+            <Product product={product} key={product.id} />
+          ))}
         </div>
-      </section >
+      </section>
     );
   } else {
     return (

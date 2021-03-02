@@ -24,9 +24,9 @@ const Navigation = () => {
   };
 
   const flagLanguage = {
-    en: "English",
-    hi: "हिन्दी",
-    es: "Español",
+    en: 'English',
+    hi: 'हिन्दी',
+    es: 'Español',
   };
 
   const dispatch = useDispatch();
@@ -36,9 +36,9 @@ const Navigation = () => {
   const [showSearchBar, toggleSearchBar] = useState(false);
 
   useEffect(() => {
-    console.log("Mounted");
+    // console.log("Mounted");
     return () => {
-      console.log("UNMounted");
+      // console.log("UNMounted");
     };
   }, []);
 
@@ -48,23 +48,38 @@ const Navigation = () => {
         <Logo container="header" />
         <span className={styles.logoTitle}>Little Tags</span>
       </Link>
-      <div className={`${styles.searchWrap} ${showSearchBar ? styles.showSearchBar : ""}`}>
+      <div className={`${styles.searchWrap} ${showSearchBar ? styles.showSearchBar : ''}`}>
         <label htmlFor="search" className={styles.searchLabel}>
           <span>Search</span>
-          <input id="search" type="text" placeholder={intl.formatMessage({ id: 'search' })} className={styles.input} />
+          <input
+            id="search"
+            type="text"
+            placeholder={intl.formatMessage({ id: 'search' })}
+            className={styles.input}
+          />
         </label>
         <button aria-label="Search" className={styles.searchButton}>
           <SearchIcon container="searchBarContainer" />
         </button>
-        <button aria-label="Close Search" className={styles.closeSearchButton} onClick={() => toggleSearchBar(!showSearchBar)}>
+        <button
+          aria-label="Close Search"
+          className={styles.closeSearchButton}
+          onClick={() => toggleSearchBar(!showSearchBar)}
+        >
           <CloseIcon container="fillDark" />
         </button>
       </div>
       <div className={styles.rightNavigation}>
-        <button aria-label="Search" className={`${styles.navItem} ${styles.searchButton}`} onClick={() => toggleSearchBar(!showSearchBar)}>
+        <button
+          aria-label="Search"
+          className={`${styles.navItem} ${styles.searchButton}`}
+          onClick={() => toggleSearchBar(!showSearchBar)}
+        >
           <SearchIcon container="searchBarContainer" />
         </button>
-        <div className={`${styles.languageSwitcher} ${languageDropdown ? styles.dropdownOpen : ""}`}>
+        <div
+          className={`${styles.languageSwitcher} ${languageDropdown ? styles.dropdownOpen : ''}`}
+        >
           <button
             aria-label="Language Switcher"
             className={`${styles.navItem} ${styles.languageSwitcherToggle}`}
@@ -75,19 +90,28 @@ const Navigation = () => {
           </button>
           <ul className={styles.languagesListDropdown}>
             <li>
-              <button className={styles.languageSwitcherButton} onClick={() => dispatch(languageAction.changeLanguage('en'))}>
+              <button
+                className={styles.languageSwitcherButton}
+                onClick={() => dispatch(languageAction.changeLanguage('en'))}
+              >
                 <img src={flags.en} className={styles.flag} />
                 <span className={styles.currentLocale}>English</span>
               </button>
             </li>
             <li>
-              <button className={styles.languageSwitcherButton} onClick={() => dispatch(languageAction.changeLanguage('hi'))}>
+              <button
+                className={styles.languageSwitcherButton}
+                onClick={() => dispatch(languageAction.changeLanguage('hi'))}
+              >
                 <img src={flags.hi} className={styles.flag} />
                 <span>हिन्दी</span>
               </button>
             </li>
             <li>
-              <button className={styles.languageSwitcherButton} onClick={() => dispatch(languageAction.changeLanguage('es'))}>
+              <button
+                className={styles.languageSwitcherButton}
+                onClick={() => dispatch(languageAction.changeLanguage('es'))}
+              >
                 <img src={flags.es} className={styles.flag} />
                 <span>Español</span>
               </button>

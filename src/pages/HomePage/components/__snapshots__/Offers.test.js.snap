@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Offers/> render correctly (snapshot) 1`] = `
+<TestEnvironmentWrapper>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Provider
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+      >
+        <IntlProvider
+          defaultFormats={Object {}}
+          defaultLocale="en"
+          formats={Object {}}
+          locale="en"
+          messages={
+            Object {
+              "electronics": "Electronics",
+              "fifty_percent_off": "Get up to 50%",
+              "help_center": "Help Center",
+              "holiday_season": "For the holiday season",
+              "jewellery": "Jewellery",
+              "login": "Log in",
+              "mensClothing": "Men's clothing",
+              "referral_message": "Invite a friend and get a discount of 5%",
+              "register": "Register",
+              "search": "Search for products",
+              "thirty_percent_discount_shirts": "Get up to 30% off shirts",
+              "womenClothing": "Women's Clothing",
+            }
+          }
+          onError={[Function]}
+          textComponent={Symbol(react.fragment)}
+        >
+          <Offers>
+            <div
+              className="offerings"
+            >
+              <div
+                className="seasonalOfferings"
+              >
+                <Link
+                  className="card offer1"
+                  to="products?offer=50"
+                >
+                  <LinkAnchor
+                    className="card offer1"
+                    href="/products?offer=50"
+                    navigate={[Function]}
+                  >
+                    <a
+                      className="card offer1"
+                      href="/products?offer=50"
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="offerContent"
+                      >
+                        <h2
+                          className="offerTitle"
+                        >
+                          <FormattedMessage
+                            id="fifty_percent_off"
+                          >
+                            Get up to 50%
+                          </FormattedMessage>
+                        </h2>
+                        <span
+                          className="offerSubTitle"
+                        >
+                          <FormattedMessage
+                            id="holiday_season"
+                          >
+                            For the holiday season
+                          </FormattedMessage>
+                        </span>
+                      </div>
+                    </a>
+                  </LinkAnchor>
+                </Link>
+                <Link
+                  className="card offer2"
+                  to="products?offer=30"
+                >
+                  <LinkAnchor
+                    className="card offer2"
+                    href="/products?offer=30"
+                    navigate={[Function]}
+                  >
+                    <a
+                      className="card offer2"
+                      href="/products?offer=30"
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="offerContent"
+                      >
+                        <h1
+                          className="offerTitle"
+                        >
+                          <FormattedMessage
+                            id="thirty_percent_discount_shirts"
+                          >
+                            Get up to 30% off shirts
+                          </FormattedMessage>
+                        </h1>
+                      </div>
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </div>
+              <div
+                className="productsOnSale"
+              >
+                <Link
+                  className="product"
+                  key="123456"
+                  to="/product/123456"
+                >
+                  <LinkAnchor
+                    className="product"
+                    href="/product/123456"
+                    navigate={[Function]}
+                  >
+                    <a
+                      className="product"
+                      href="/product/123456"
+                      onClick={[Function]}
+                    >
+                      <div
+                        alt="Nike React Art3mis"
+                        className="productImage"
+                        style={
+                          Object {
+                            "backgroundImage": "url('Art3mis-6.png')",
+                          }
+                        }
+                      />
+                      <div
+                        className="productDetails"
+                      >
+                        <h2
+                          className="productTitle"
+                        >
+                          Nike React Art3mis
+                        </h2>
+                        <div
+                          className="price"
+                        >
+                          <span
+                            className="productPrice"
+                          >
+                            $
+                             
+                            160
+                          </span>
+                          <span
+                            className="discountedPrice"
+                          >
+                            $
+                             
+                            99
+                          </span>
+                        </div>
+                      </div>
+                      <span
+                        className="arrow"
+                      >
+                        <ArrowRightIcon>
+                          <svg
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M8.5 5L15.5 12L8.5 19"
+                              stroke="#200E32"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="1.5"
+                            />
+                          </svg>
+                        </ArrowRightIcon>
+                      </span>
+                    </a>
+                  </LinkAnchor>
+                </Link>
+                <Link
+                  className="product"
+                  key="52341"
+                  to="/product/52341"
+                >
+                  <LinkAnchor
+                    className="product"
+                    href="/product/52341"
+                    navigate={[Function]}
+                  >
+                    <a
+                      className="product"
+                      href="/product/52341"
+                      onClick={[Function]}
+                    >
+                      <div
+                        alt="Blazer Mid Vintage '77"
+                        className="productImage"
+                        style={
+                          Object {
+                            "backgroundImage": "url('Blazer Mid Vintage-3.png')",
+                          }
+                        }
+                      />
+                      <div
+                        className="productDetails"
+                      >
+                        <h2
+                          className="productTitle"
+                        >
+                          Blazer Mid Vintage '77
+                        </h2>
+                        <div
+                          className="price"
+                        >
+                          <span
+                            className="productPrice"
+                          >
+                            $
+                             
+                            390
+                          </span>
+                          <span
+                            className="discountedPrice"
+                          >
+                            $
+                             
+                            249
+                          </span>
+                        </div>
+                      </div>
+                      <span
+                        className="arrow"
+                      >
+                        <ArrowRightIcon>
+                          <svg
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M8.5 5L15.5 12L8.5 19"
+                              stroke="#200E32"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="1.5"
+                            />
+                          </svg>
+                        </ArrowRightIcon>
+                      </span>
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </div>
+            </div>
+          </Offers>
+        </IntlProvider>
+      </Provider>
+    </Router>
+  </BrowserRouter>
+</TestEnvironmentWrapper>
+`;

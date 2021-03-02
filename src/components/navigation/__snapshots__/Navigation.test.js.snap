@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navigation/> render correctly (snapshot) 1`] = `
+<TestEnvironmentWrapper>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Provider
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+      >
+        <IntlProvider
+          defaultFormats={Object {}}
+          defaultLocale="en"
+          formats={Object {}}
+          locale="en"
+          messages={
+            Object {
+              "electronics": "Electronics",
+              "fifty_percent_off": "Get up to 50%",
+              "help_center": "Help Center",
+              "holiday_season": "For the holiday season",
+              "jewellery": "Jewellery",
+              "login": "Log in",
+              "mensClothing": "Men's clothing",
+              "referral_message": "Invite a friend and get a discount of 5%",
+              "register": "Register",
+              "search": "Search for products",
+              "thirty_percent_discount_shirts": "Get up to 30% off shirts",
+              "womenClothing": "Women's Clothing",
+            }
+          }
+          onError={[Function]}
+          textComponent={Symbol(react.fragment)}
+        >
+          <Navigation>
+            <header
+              className="header"
+            >
+              <Link
+                className="pageBranding"
+                to="/"
+              >
+                <LinkAnchor
+                  className="pageBranding"
+                  href="/"
+                  navigate={[Function]}
+                >
+                  <a
+                    className="pageBranding"
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    <Logo
+                      container="header"
+                    >
+                      <svg
+                        className="header"
+                        fill="none"
+                        viewBox="0 0 20 22"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7.86256 20.709C8.05184 20.8973 8.30274 21.0018 8.5697 21.0018C8.83756 21.0018 9.08845 20.8973 9.27774 20.709L10.0001 19.9866L11.0929 21.0929C11.2929 21.292 11.5536 21.3938 11.8188 21.3938C12.0965 21.3938 12.3786 21.2831 12.6036 21.0572L17.4215 14.7447C17.5411 14.5875 17.5108 14.3634 17.3545 14.2429C17.1974 14.1259 16.9742 14.1536 16.8527 14.3098L12.067 20.5866C11.9367 20.7152 11.7251 20.7161 11.5983 20.5884L10.5045 19.4813L17.509 12.4768C18.5161 11.4688 20.2206 5.12592 18.192 3.09645C17.6849 2.58931 16.8706 2.29735 15.7965 2.20181C14.9876 1.26967 13.7108 0.549132 12.276 0.225024C10.9242 -0.0785469 9.5697 -0.016047 8.46166 0.405382C7.30184 0.84556 6.54291 1.62324 6.32327 2.59467C6.11345 3.52502 6.43309 4.50806 7.21434 5.37592L0.580415 12.0098C0.190236 12.4009 0.190236 13.0348 0.580415 13.4259L7.86256 20.709ZM7.02059 2.75092C7.18488 2.02145 7.78666 1.42502 8.71434 1.07235C9.69291 0.700024 10.901 0.644667 12.1188 0.921453C13.1277 1.14913 14.0411 1.5911 14.7331 2.16342C12.3527 2.23127 9.49649 3.09288 8.81077 3.7786L7.72506 4.8652C7.12416 4.18217 6.86524 3.43842 7.02059 2.75092ZM1.08577 12.5161L7.73845 5.86342C8.52506 6.52681 9.54024 7.03395 10.6813 7.2911C11.2429 7.41788 11.7983 7.4777 12.3313 7.4777C13.3697 7.4777 14.3161 7.24377 15.0643 6.83217C15.3054 6.97056 15.5804 7.05627 15.8777 7.05627C16.7849 7.05627 17.5224 6.31877 17.5224 5.41163C17.5224 4.50449 16.7849 3.7661 15.8777 3.7661C14.9706 3.7661 14.2331 4.50449 14.2331 5.41163C14.2331 5.74735 14.3349 6.05985 14.509 6.32056C13.5474 6.77145 12.2268 6.90985 10.8384 6.59377C9.83041 6.36699 8.93577 5.92949 8.24291 5.35895L9.31702 4.28485C9.80006 3.80092 12.5456 2.87235 15.0313 2.87235C16.2911 2.87235 17.209 3.12413 17.6867 3.60181C19.3652 5.27949 17.7858 11.1893 17.0036 11.9706L8.77149 20.2027C8.66345 20.3107 8.47506 20.3107 8.36702 20.2027L1.08577 12.9206C0.974165 12.809 0.974165 12.6277 1.08577 12.5161ZM14.9474 5.41163C14.9474 4.89824 15.3643 4.48127 15.8768 4.48127C15.9081 4.48127 15.934 4.49645 15.9643 4.49913C15.9572 4.58842 15.9554 4.6786 15.9358 4.76431C15.8304 5.23127 15.5367 5.62235 15.1331 5.9402C15.0251 5.78842 14.9474 5.61252 14.9474 5.41163ZM16.634 4.92145C16.6349 4.9161 16.6349 4.90985 16.6358 4.90449C16.7349 5.0527 16.8063 5.21967 16.8063 5.41163C16.8063 5.92413 16.3893 6.3411 15.8768 6.3411C15.8429 6.3411 15.8135 6.32502 15.7804 6.32145C16.2063 5.93395 16.5108 5.4652 16.634 4.92145Z"
+                        />
+                        <path
+                          d="M8.13226 17.0607C8.2019 17.1303 8.29387 17.1652 8.38494 17.1652C8.47601 17.1652 8.56797 17.1303 8.63762 17.0607L12.6698 13.0285C12.809 12.8893 12.809 12.6625 12.6698 12.5232L8.7653 8.61783C8.69833 8.55176 8.60726 8.51337 8.51262 8.51337C8.41797 8.51337 8.3269 8.55176 8.25994 8.61783L4.2269 12.6509C4.16083 12.7178 4.12244 12.8089 4.12244 12.9035C4.12244 12.9982 4.16083 13.0893 4.2269 13.1562L8.13226 17.0607ZM8.51262 9.37497L11.9126 12.7759L8.38583 16.3027L4.98494 12.9027L8.51262 9.37497Z"
+                        />
+                        <path
+                          d="M10.117 12.9974C10.1866 13.0671 10.2786 13.1019 10.3697 13.1019C10.4608 13.1019 10.5527 13.0671 10.6224 12.9974C10.7617 12.8581 10.7617 12.6314 10.6224 12.4921L8.79647 10.6662C8.65718 10.5269 8.4304 10.5269 8.29111 10.6662C8.15182 10.8055 8.15182 11.0322 8.29111 11.1715L10.117 12.9974Z"
+                        />
+                        <path
+                          d="M9.10901 14.0054C9.17865 14.0751 9.27061 14.1099 9.36169 14.1099C9.45276 14.1099 9.54472 14.0751 9.61436 14.0054C9.75365 13.8661 9.75365 13.6393 9.61436 13.5001L7.78847 11.6742C7.64919 11.5349 7.4224 11.5349 7.28311 11.6742C7.14383 11.8135 7.14383 12.0402 7.28311 12.1795L9.10901 14.0054Z"
+                        />
+                        <path
+                          d="M8.60716 14.507L6.78127 12.6811C6.64198 12.5418 6.4152 12.5418 6.27591 12.6811C6.13663 12.8204 6.13663 13.0472 6.27591 13.1865L8.10181 15.0124C8.17145 15.082 8.26341 15.1168 8.35448 15.1168C8.44556 15.1168 8.53752 15.082 8.60716 15.0124C8.74645 14.874 8.74645 14.6472 8.60716 14.507Z"
+                        />
+                      </svg>
+                    </Logo>
+                    <span
+                      className="logoTitle"
+                    >
+                      Little Tags
+                    </span>
+                  </a>
+                </LinkAnchor>
+              </Link>
+              <div
+                className="searchWrap "
+              >
+                <label
+                  className="searchLabel"
+                  htmlFor="search"
+                >
+                  <span>
+                    Search
+                  </span>
+                  <input
+                    className="input"
+                    id="search"
+                    placeholder="Search for products"
+                    type="text"
+                  />
+                </label>
+                <button
+                  aria-label="Search"
+                  className="searchButton"
+                >
+                  <SearchIcon
+                    container="searchBarContainer"
+                  >
+                    <svg
+                      className="searchBarContainer"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        className="searchCircle"
+                        cx="11.7666"
+                        cy="11.7666"
+                        r="8.98856"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                      />
+                      <path
+                        className="searchStrokePath"
+                        d="M18.0183 18.4852L21.5423 22.0001"
+                        opacity="0.4"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                      />
+                    </svg>
+                  </SearchIcon>
+                </button>
+                <button
+                  aria-label="Close Search"
+                  className="closeSearchButton"
+                  onClick={[Function]}
+                >
+                  <CloseIcon
+                    container="fillDark"
+                  >
+                    <svg
+                      className="fillDark"
+                      version="1.1"
+                      viewBox="0 0 100 100"
+                      x="0px"
+                      xmlns="http://www.w3.org/2000/svg"
+                      y="0px"
+                    >
+                      <path
+                        d="M25.161,76.274c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414l49.37-49.37 c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-49.37,49.37C25.672,76.176,25.417,76.274,25.161,76.274z"
+                      />
+                      <path
+                        d="M74.531,76.274c-0.256,0-0.512-0.098-0.707-0.293l-49.37-49.37c-0.391-0.391-0.391-1.023,0-1.414 s1.023-0.391,1.414,0l49.37,49.37c0.391,0.391,0.391,1.023,0,1.414C75.042,76.176,74.787,76.274,74.531,76.274z"
+                      />
+                    </svg>
+                  </CloseIcon>
+                </button>
+              </div>
+              <div
+                className="rightNavigation"
+              >
+                <button
+                  aria-label="Search"
+                  className="navItem searchButton"
+                  onClick={[Function]}
+                >
+                  <SearchIcon
+                    container="searchBarContainer"
+                  >
+                    <svg
+                      className="searchBarContainer"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        className="searchCircle"
+                        cx="11.7666"
+                        cy="11.7666"
+                        r="8.98856"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                      />
+                      <path
+                        className="searchStrokePath"
+                        d="M18.0183 18.4852L21.5423 22.0001"
+                        opacity="0.4"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                      />
+                    </svg>
+                  </SearchIcon>
+                </button>
+                <div
+                  className="languageSwitcher "
+                >
+                  <button
+                    aria-label="Language Switcher"
+                    className="navItem languageSwitcherToggle"
+                    onClick={[Function]}
+                  >
+                    <img
+                      src="UKFlag.png"
+                    />
+                    <span
+                      className="currentLocale"
+                    >
+                      English
+                    </span>
+                  </button>
+                  <ul
+                    className="languagesListDropdown"
+                  >
+                    <li>
+                      <button
+                        className="languageSwitcherButton"
+                        onClick={[Function]}
+                      >
+                        <img
+                          className="flag"
+                          src="UKFlag.png"
+                        />
+                        <span
+                          className="currentLocale"
+                        >
+                          English
+                        </span>
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        className="languageSwitcherButton"
+                        onClick={[Function]}
+                      >
+                        <img
+                          className="flag"
+                          src="IndianFlag.png"
+                        />
+                        <span>
+                          हिन्दी
+                        </span>
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        className="languageSwitcherButton"
+                        onClick={[Function]}
+                      >
+                        <img
+                          className="flag"
+                          src="spainFlag.png"
+                        />
+                        <span>
+                          Español
+                        </span>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <button
+                  aria-label="Cart"
+                  className="navItem cartButton"
+                >
+                  <CartIcon>
+                    <svg
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clipRule="evenodd"
+                        d="M7.42226 19.8203C7.84426 19.8203 8.18726 20.1633 8.18726 20.5853C8.18726 21.0073 7.84426 21.3493 7.42226 21.3493C7.00026 21.3493 6.65826 21.0073 6.65826 20.5853C6.65826 20.1633 7.00026 19.8203 7.42226 19.8203Z"
+                        fillRule="evenodd"
+                        opacity="0.4"
+                        stroke="#200E32"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                      />
+                      <path
+                        clipRule="evenodd"
+                        d="M18.6747 19.8203C19.0967 19.8203 19.4397 20.1633 19.4397 20.5853C19.4397 21.0073 19.0967 21.3493 18.6747 21.3493C18.2527 21.3493 17.9097 21.0073 17.9097 20.5853C17.9097 20.1633 18.2527 19.8203 18.6747 19.8203Z"
+                        fillRule="evenodd"
+                        opacity="0.4"
+                        stroke="#200E32"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                      />
+                      <path
+                        d="M2.74988 3.25L4.82988 3.61L5.79288 15.083C5.87088 16.018 6.65188 16.736 7.58988 16.736H18.5019C19.3979 16.736 20.1579 16.078 20.2869 15.19L21.2359 8.632C21.3529 7.823 20.7259 7.099 19.9089 7.099H5.16388"
+                        stroke="#200E32"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                      />
+                      <path
+                        d="M14.1254 10.795H16.8984"
+                        opacity="0.4"
+                        stroke="#200E32"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
+                      />
+                    </svg>
+                  </CartIcon>
+                </button>
+              </div>
+            </header>
+          </Navigation>
+        </IntlProvider>
+      </Provider>
+    </Router>
+  </BrowserRouter>
+</TestEnvironmentWrapper>
+`;

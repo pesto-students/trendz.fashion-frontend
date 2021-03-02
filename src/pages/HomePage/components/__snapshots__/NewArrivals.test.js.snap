@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewArrivals/> render correctly (snapshot) 1`] = `
+<TestEnvironmentWrapper>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Provider
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(observable): [Function],
+          }
+        }
+      >
+        <IntlProvider
+          defaultFormats={Object {}}
+          defaultLocale="en"
+          formats={Object {}}
+          locale="en"
+          messages={
+            Object {
+              "electronics": "Electronics",
+              "fifty_percent_off": "Get up to 50%",
+              "help_center": "Help Center",
+              "holiday_season": "For the holiday season",
+              "jewellery": "Jewellery",
+              "login": "Log in",
+              "mensClothing": "Men's clothing",
+              "referral_message": "Invite a friend and get a discount of 5%",
+              "register": "Register",
+              "search": "Search for products",
+              "thirty_percent_discount_shirts": "Get up to 30% off shirts",
+              "womenClothing": "Women's Clothing",
+            }
+          }
+          onError={[Function]}
+          textComponent={Symbol(react.fragment)}
+        >
+          <NewArrivals>
+            <section
+              className="newArrivals"
+            >
+              <h2
+                className="title"
+              >
+                New Arrivals
+              </h2>
+              <div
+                className="products"
+              >
+                <Loader>
+                  <center>
+                    Loader
+                  </center>
+                </Loader>
+              </div>
+            </section>
+          </NewArrivals>
+        </IntlProvider>
+      </Provider>
+    </Router>
+  </BrowserRouter>
+</TestEnvironmentWrapper>
+`;

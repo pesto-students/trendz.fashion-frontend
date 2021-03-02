@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown/> render correctly (snapshot) 1`] = `
+<Dropdown>
+  <div>
+    <h3
+      className="heading18Grey"
+    />
+    <select
+      className="select"
+      id="cars"
+      name="cars"
+    >
+      <option
+        value=""
+      >
+        Select
+      </option>
+    </select>
+  </div>
+</Dropdown>
+`;
