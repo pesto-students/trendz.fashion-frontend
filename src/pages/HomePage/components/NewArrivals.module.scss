@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 .newArrivals {
   display: block;
   margin-top: 15px;
@@ -8,10 +10,10 @@
     font-size: 30px;
     font-weight: bolder;
     margin: 25px 0;
-    color: #0781ff;
+    color: $one-another-blue;
     &::after {
       position: absolute;
-      content: "";
+      content: '';
       width: 25%;
       height: 7px;
       background: currentColor;

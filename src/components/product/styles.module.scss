@@ -1,9 +1,11 @@
+@import '../../styles/variables';
+
 .product {
   display: flex;
   flex-direction: column;
   flex: 1;
   min-height: 100%;
-  color: #2f2f2f;
+  color: $dark-grey;
   margin-right: 25px;
   margin-bottom: 25px;
   align-items: center;
@@ -58,7 +60,7 @@
         font-weight: 400;
       }
     }
-    
+
     @media screen and (max-width: 480px) {
       padding: 10px;
       background: rgba(255, 255, 255, 0.7);
@@ -85,7 +87,7 @@
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: $white;
     box-shadow: 0 0 0 1px rgba(9, 30, 66, 0.08), 0 2px 4px 1px rgba(9, 30, 66, 0.08);
 
     @media screen and (max-width: 480px) {
@@ -100,11 +102,11 @@
   &:hover,
   &:focus {
     .arrow {
-      background: #4c9aff;
+      background: $sky-blue;
 
       svg {
         path {
-          stroke: #fff;
+          stroke: $white;
         }
       }
     }
