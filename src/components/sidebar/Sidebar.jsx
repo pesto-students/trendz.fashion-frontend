@@ -8,11 +8,11 @@ import WomenClothingIcon from '../../assets/icons/sidebar/WomenClothingIcon';
 import JewelleryIcon from '../../assets/icons/sidebar/jewelleryIcon';
 import styles from './styles.module.scss';
 import ElectronicsIcon from '../../assets/icons/sidebar/electronicsIcon';
-import LogoutIcon from '../../assets/icons/logout/component';
-import HelpIcon from '../../assets/icons/help/component';
+import LogoutIcon from '../../assets/icons/logout/logoutIcon';
+import HelpIcon from '../../assets/icons/help/helpIcon';
 import ArrowLeftIcon from '../../assets/icons/arrows/arrowLeft';
 import { $id } from '../../utils/domUtils';
-import LogInIcon from '../../assets/icons/login/component';
+import LogInIcon from '../../assets/icons/login/loginIcon';
 
 const Sidebar = ({ openLogin }) => {
   const intl = useIntl();

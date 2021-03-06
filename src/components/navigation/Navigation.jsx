@@ -5,11 +5,11 @@ import { useSelector, useDispatch } from 'react-redux';
 import languageAction from '../../redux/actions/languageAction';
 
 import styles from './styles.module.scss';
-import CartIcon from '../../assets/icons/cart/component';
-import ProfileIcon from '../../assets/icons/profile/component';
+import CartIcon from '../../assets/icons/cart/cartIcon';
+import ProfileIcon from '../../assets/icons/profile/profileIcon';
 import Logo from '../../assets/icons/logo/logo';
 import SearchIcon from '../../assets/icons/search-icon/searchIcon';
-import CloseIcon from '../../assets/icons/close/component';
+import CloseIcon from '../../assets/icons/close/closeIcon';
 
 import UKFlag from '../../assets/images/countryFlags/UKFlag.png';
 import IndiaFlag from '../../assets/images/countryFlags/IndianFlag.png';
