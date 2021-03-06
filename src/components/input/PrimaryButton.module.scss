@@ -1,6 +1,8 @@
+@import '../../styles/variables';
+
 .button {
-  background: #6c6c6c;
-  color: #fff;
+  background: $medium-grey;
+  color: $white;
   font-size: 20px;
   text-transform: uppercase;
   border-radius: 100px;

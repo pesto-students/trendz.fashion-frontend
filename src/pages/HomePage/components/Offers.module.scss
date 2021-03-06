@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 .offerings {
   display: flex;
   width: 100%;
@@ -18,7 +20,7 @@
       justify-content: flex-start;
       align-items: center;
       text-decoration: none;
-      color: #565656;
+      color: $medium-grey;
 
       @media screen and (max-width: 480px) {
         padding: 10px;
@@ -30,7 +32,7 @@
           font-size: 30px;
           text-transform: uppercase;
           font-weight: bold;
-          color: #565656;
+          color: $medium-grey;
           @media screen and (max-width: 480px) {
             font-size: 20px;
           }
@@ -71,7 +73,7 @@
         .offerContent {
           .offerTitle {
             font-size: 35px;
-            color: #000;
+            color: $black;
             @media screen and (max-width: 480px) {
               font-size: 20px;
             }
@@ -95,7 +97,7 @@
     .product {
       height: 100%;
       flex: 1;
-      color: #2f2f2f;
+      color: $dark-grey;
 
       &:last-child {
         margin-left: 10px;
@@ -138,7 +140,7 @@
 
           .productPrice {
             display: inline-block;
-            color: #ff2929;
+            color: $danger;
             text-decoration: line-through;
             margin-right: 10px;
           }
@@ -146,7 +148,6 @@
           .discountedPrice {
             font-weight: 400;
           }
-
         }
         @media screen and (max-width: 480px) {
           padding: 10px;
@@ -174,7 +175,7 @@
         border-radius: 50%;
         align-items: center;
         justify-content: center;
-        background: #fff;
+        background: $white;
         box-shadow: 0 0 0 1px rgba(9, 30, 66, 0.08), 0 2px 4px 1px rgba(9, 30, 66, 0.08);
 
         @media screen and (max-width: 480px) {
@@ -189,11 +190,11 @@
       &:hover,
       &:focus {
         .arrow {
-          background: #4c9aff;
+          background: $sky-blue;
 
           svg {
             path {
-              stroke: #fff;
+              stroke: $white;
             }
           }
         }

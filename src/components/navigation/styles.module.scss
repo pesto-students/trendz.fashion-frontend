@@ -1,5 +1,5 @@
-@import "../../styles/mixins";
-@import "../../styles/variables";
+@import '../../styles/mixins';
+@import '../../styles/variables';
 
 .header {
   position: fixed;
@@ -35,7 +35,7 @@
       text-transform: uppercase;
       letter-spacing: 3px;
       font-weight: bold;
-      color: #0070ff;
+      color: $another-blue;
 
       @media only screen and (max-width: 600px) {
         font-size: 15px;
@@ -75,18 +75,19 @@
         letter-spacing: 1px;
         text-align: center;
         transition: 0.3s ease-in-out;
-        background: #fff;
-        color: #424242;
-        box-shadow: 0 0 0 1px #bbb;
-    
+        background: $white;
+        color: $dark-grey;
+        box-shadow: 0 0 0 1px $light-grey;
+
         &:focus {
           text-align: left;
-          box-shadow: 0 0 0 2px #139dff;
+          box-shadow: 0 0 0 2px $light-blue;
         }
       }
     }
 
-    .searchButton, .closeSearchButton {
+    .searchButton,
+    .closeSearchButton {
       position: absolute;
       width: 40px;
       height: 40px;
@@ -108,7 +109,6 @@
       }
     }
 
-    
     @media only screen and (max-width: 900px) {
       display: none;
 
@@ -125,10 +125,10 @@
             height: 100%;
             border-radius: 0;
             text-align: left;
-            box-shadow: inset 0 0 0 1px #bbb;
-            
+            box-shadow: inset 0 0 0 1px $light-grey;
+
             &:focus {
-              box-shadow: inset 0 0 0 2px #139dff;
+              box-shadow: inset 0 0 0 2px $light-blue;
             }
           }
         }
@@ -168,8 +168,8 @@
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background-color: #045de9;
-        background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+        background-color: $medium-blue;
+        background-image: linear-gradient(315deg, $medium-blue 0%, $light-blue 74%);
         z-index: -1;
         opacity: 0;
         transition: all 0.3s ease-in-out;
@@ -200,7 +200,7 @@
         svg {
           circle,
           path {
-            stroke: #fff;
+            stroke: $white;
           }
         }
       }
@@ -222,7 +222,7 @@
         }
       }
     }
-    
+
     .languageSwitcher {
       position: relative;
 
@@ -237,13 +237,13 @@
         margin: 0;
         border-radius: 5px;
         list-style: none;
-        background: #fff;
+        background: $white;
         box-shadow: 0 0 0 2px rgba(9, 30, 66, 0.08), 0 2px 3px 1px rgba(9, 30, 66, 0.08);
         overflow: hidden;
 
         .languageSwitcherButton {
           display: flex;
-          background: #fff;
+          background: $white;
           border: 0;
           width: 100%;
           text-align: left;
